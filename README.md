@@ -1,12 +1,56 @@
 # Local climate impacts of tropical deforestation
 
-## Scripts for processing and analysing satellite data
+# Scripts for processing and analysing satellite data
 Author: Callum Smith (ee13c2s@leeds.ac.uk)
 
 The scripts for processing the raw data used in the following paper:
 
 Smith, C., Baker, J.C.A. & Spracklen, D.V. In review. Transition from shifting to commodity agriculture doubles warming from tropical forest loss (AGU Advances).
 
+Analysis in this study was carried out using satellite data from a range of sources. We employed tree canopy cover data from the Global Forest Change group (Hansen et al., 2013) and a range of climate and land surface variables from MODIS, as well as Preicpitation data from CHIRPS and elevation data from GLOBE.
+
+
+# List of scripts
+
+## Scripts used to process raw satellite data to harmonised netcdf files:
+
+1. LAI_processing.py
+2. ET_processing.py - this includes putting into folders, etc as below.
+3. etc.
+
+
+## Scripts with additional functions called during harmonisation and data processing
+
+1. cube_funcs.py
+2. harmonise.py
+
+
+# categorise the forest loss hansen data
+
+1. canopy_cover.py
+
+
+## Scripts to analyse the satellite data
+
+1. Figure_3_all_vars.py
+2. Figure_2.py
+
+
+
+
+Dataset stored here: "Leeds data repo". Describe the dataset. Full details of all source datasets are provided in 'ETransition from shifting to commodity agriculture doubles warming from tropical forest loss' in review in AGU Advances.
+
+
+
+
+
+
+
+
+
+
+
+# JESS
 ## List of scripts
 1. Scripts to process raw satellite, ERA5 and CMIP model data to harmonised netcdfs
 2. chirps_p_data_processing.py
